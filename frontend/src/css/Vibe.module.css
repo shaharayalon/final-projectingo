@@ -1,0 +1,17 @@
+
+.vibeContainer{
+width: 100vw !important;
+min-height: 93vh !important;
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+direction: rtl !important;
+text-align: center !important;
+}
+
+@media screen and (max-width:576px) {
+.vibeText {
+    font-size: 15vw;
+}
+    
+}

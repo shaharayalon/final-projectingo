@@ -1,0 +1,30 @@
+.container{
+    margin-top: 3vh !important;
+}
+
+
+
+.title{
+display: flex !important;
+justify-content: center !important;
+text-align: center !important;
+}
+
+.subtitle{
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .title{
+        font-size: 10vw !important;
+    }
+    
+    .subtitle{
+        font-size: 10vw !important;
+        margin-bottom: 5vw !important;
+    }
+}

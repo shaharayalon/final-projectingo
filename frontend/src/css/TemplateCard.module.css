@@ -1,0 +1,13 @@
+.card{
+    display: flex !important;
+    flex-direction: column !important;
+    width: 25vw !important;
+    height: 70vh !important;
+    justify-content: space-between !important;
+}
+
+@media screen and (max-width: 576px) {
+    .card{
+        width: 80vw !important;
+    }
+}

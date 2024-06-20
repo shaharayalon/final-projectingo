@@ -1,0 +1,16 @@
+.regularMenu{
+    display: flex !important;
+    align-items: center !important;
+    height: 7vh !important;
+}
+
+@media screen and (max-width: 576px) {
+
+    .regularMenu{
+        display: none !important;
+    }
+    .title{
+        font-size: 4vw !important;
+    }
+    
+}

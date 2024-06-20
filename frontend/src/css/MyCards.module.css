@@ -1,0 +1,26 @@
+
+ .container{
+    width: 100vw !important;
+    min-height: 93vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    direction: rtl !important;
+ }
+
+ .gridCards{
+   display: flex !important;
+   justify-content: center !important;
+ }
+
+ .title{
+         margin-top: 3vh !important;
+         margin-bottom: 5vh !important;
+ }
+
+ @media screen and (max-width: 576px) {
+   .title{
+      font-size: 15vw !important;
+      text-align: center !important;
+   }
+ }

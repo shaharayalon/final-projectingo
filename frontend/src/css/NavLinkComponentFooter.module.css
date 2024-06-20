@@ -1,0 +1,10 @@
+.link{
+    padding-right: 1vw !important;
+    padding-left: 1vw !important;
+}
+
+@media screen and (max-width: 576px) {
+    .link{
+        font-size: 3vw !important;
+    }
+}

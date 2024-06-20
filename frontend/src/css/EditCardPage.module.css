@@ -1,0 +1,34 @@
+.container {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100vw !important;
+    min-height: 93vh !important;
+    gap: 1vw !important;
+}
+
+.title {
+    margin-top: 5vh !important;
+    margin-bottom: 5vh !important;
+    text-align: center !important;
+}
+
+.field {
+    width: 30vw !important;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        gap: 5vw !important;
+    }
+
+    .title {
+        font-size: 20vw !important;
+        margin-top: 10vh !important;
+    }
+
+    .field {
+        width: 70vw !important;
+    }
+}

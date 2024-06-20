@@ -1,0 +1,53 @@
+
+ .container{
+    direction: rtl !important;
+    width: 100vw !important;
+    min-height: 93vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding-left: 20vw !important;
+    padding-right: 20vw !important;
+    text-align: center !important;
+ }
+ .title{
+    margin-top: 10vh !important;
+    margin-bottom: 10vh !important;
+ }
+ .subtitle{
+    margin-bottom: 3vh !important;
+ }
+ .image{
+    width: 50vw !important;
+    height: 50vh !important;
+    border: 3px dotted rgb(206, 192, 192) !important;
+    margin-bottom: 5vh !important;
+ }
+ @media screen and (max-width: 576px) {
+    .container{
+        padding-left: 7vw !important;
+        padding-right: 7vw !important;
+    }
+    .title{
+        /* margin-top: 10vh !important; */
+        margin-bottom: 2vh !important;
+        font-size: 15vw !important;
+    }
+
+    .subtitle{
+        margin-top: 3vh !important;
+        font-size: 7vw !important;
+    }
+    .subtitleVibe{
+        margin-top: 3vh !important;
+        font-size: 7vw !important;
+        font-weight: bold !important;
+    }
+    .image{
+    width: 80vw !important;
+    height: 30vh !important;
+    border: 3px dotted rgb(206, 192, 192) !important;
+    margin-bottom: 5vh !important;
+    }
+    
+ }
