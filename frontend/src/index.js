@@ -15,7 +15,7 @@ import { Provider } from "react-redux";
 
 console.log(process.env);
 
-axios.defaults.baseURL = process.env.REACT_APP_SERVER_URL;
+axios.defaults.baseURL = 'http://localhost:8080/api/v1';
 axios.interceptors.request.use((config) => {
   const token = localStorage.getItem("token");
   if (token) {
