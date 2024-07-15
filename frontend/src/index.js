@@ -13,7 +13,7 @@ import axios from "axios";
 import store from "./store/bigPie";
 import { Provider } from "react-redux";
 
-console.log(process.env);
+
 
 axios.defaults.baseURL = 'http://localhost:8080/api/v1';
 axios.interceptors.request.use((config) => {
